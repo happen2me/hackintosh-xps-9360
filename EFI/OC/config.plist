@@ -197,7 +197,7 @@
 				<key>Comment</key>
 				<string>Haswell: SB_RCBA is a 0x4 page memory region, containing SPI_BASE at 0x3800 (SPI_BASE_ADDRESS)</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>Address</key>
@@ -205,7 +205,7 @@
 				<key>Comment</key>
 				<string>Generic: PCI root is a 0x1000 page memory region used by some types of firmware</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 		<key>Patch</key>
@@ -1283,7 +1283,7 @@
 			<key>AppleXcpmCfgLock</key>
 			<true/>
 			<key>AppleXcpmExtraMsrs</key>
-			<false/>
+			<true/>
 			<key>AppleXcpmForceBoost</key>
 			<false/>
 			<key>CustomPciSerialDevice</key>
